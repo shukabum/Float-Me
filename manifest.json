@@ -3,7 +3,7 @@
   "name": "Float Me",
   "description": "Convert any browser tab in to a mini floating window",
   "version": "1.0",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "windows"],
   "action": {
     "default_popup": "popup.html"
   },

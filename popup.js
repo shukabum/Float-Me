@@ -6,10 +6,7 @@ document.getElementById("createWindow").addEventListener("click", () => {
         tabId: tab.id,
         type: "popup",
         focused: true,
-        width: 1000,
-        height: 1000,
-        left: 100,
-        top: 100,
+        state: "fullscreen",
       },
       (newWindow) => {
         const floatingWindowId = newWindow.id;
