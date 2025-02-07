@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Mini Win</title>
+    <style>
+      body {
+        min-width: 150px;
+        border-radius: 1em;
+        border: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        flex-direction: column;
+        transition: opacity 0.3s ease;
+        background-color: rgb(49, 48, 48);
+      }
+      button {
+        padding: 10px;
+        background-color: #3b6ea4;
+        width: auto;
+        height: fit-content;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        border-radius: 12em;
+      }
+      button:hover {
+        background-color: #6d7986;
+      }
+      .out-of-focus {
+        opacity: 1;
+      }
+      #createWindow {
+        height: 100px;
+        width: 100px;
+        border-radius: 3em;
+      }
+      #createWindow:hover {
+        cursor: pointer;
+        height: 105px;
+        width: 105px;
+        transition: all ease 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="createWindow" src="icons/photo.webp" />
+    <!-- <button id="createWindow">Switch</button> -->
+    <script src="popup.js"></script>
+  </body>
+</html>
